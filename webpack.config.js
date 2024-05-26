@@ -44,7 +44,9 @@ module.exports = (_, argv) => ({
       name: "mf_ticket_view",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./TicketView":"./src/components/TicketView.jsx",
+      },
       shared: {
         ...deps,
         react: {

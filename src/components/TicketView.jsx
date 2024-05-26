@@ -42,13 +42,13 @@ const TicketView = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        minHeight: "100vh",
+        minHeight: "90vh",
       }}
     >
       <div className="center-container">
         <Card
           style={{
-            width: "45rem",
+            width: "35rem",
             backgroundColor: "#ECEBF4",
             borderRadius: "20px",
           }}
